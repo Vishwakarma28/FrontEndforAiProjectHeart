@@ -14,7 +14,7 @@ function App() {
     console.log("Sending data:", data);
 
     try {
-      const response = await fetch('heartdiseasepredictaibackend.vercel.app/predict', {
+      const response = await fetch('https://heartdiseasepredictaibackend.vercel.app/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
